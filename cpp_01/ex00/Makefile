@@ -1,7 +1,7 @@
-NAME = phonebook
+NAME = zombie
 CC = c++
 CFLAGS = -Wall -Wextra -Werror
-SRC = main.cpp Contact.cpp PhoneBook.cpp
+SRC = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
