@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:20 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 14:36:48 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/03/23 16:09:25 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,10 @@ public:
 	Fixed	operator++(int);
 	Fixed&	operator--(void);
 	Fixed	operator--(int);
+	static Fixed&	min(Fixed &a, Fixed &b);
+	static const Fixed&	min(const Fixed &a, const Fixed &b);
+	static Fixed&	max(Fixed &a, Fixed &b);
+	static const Fixed&	max(const Fixed &a, const Fixed &b);
 };
 
 std::ostream& operator<<(std::ostream& out, const Fixed& fixed);

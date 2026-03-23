@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:18 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 14:36:35 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/03/23 16:09:43 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -156,4 +156,36 @@ Fixed Fixed::operator--(int)
 	Fixed old_value = Fixed(*this);
 	this->setRawBits(this->getRawBits() - 1);
 	return (old_value);
+}
+
+Fixed &Fixed::min(Fixed &a, Fixed &b)
+{
+	if (a < b)
+		return(a);
+	else
+		return(b);
+}
+
+const Fixed &Fixed::min(const Fixed &a, const Fixed &b)
+{
+	if (a < b)
+		return(a);
+	else
+		return(b);
+}
+
+Fixed &Fixed::max(Fixed &a, Fixed &b)
+{
+	if (a > b)
+		return(a);
+	else
+		return(b);
+}
+
+const Fixed &Fixed::max(const Fixed &a, const Fixed &b)
+{
+	if (a > b)
+		return(a);
+	else
+		return(b);
 }
