@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:18 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 12:22:11 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/03/23 14:36:35 by ravi-bagin    ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,4 +72,88 @@ int Fixed::getRawBits(void) const
 void Fixed::setRawBits(int const raw)
 {
 	this->rawBits = raw;
+}
+
+bool Fixed::operator<(const Fixed &other) const
+{
+	return(this->getRawBits() < other.getRawBits());
+}
+
+bool Fixed::operator>(const Fixed &other) const
+{
+	return(this->getRawBits() > other.getRawBits());
+}
+
+bool Fixed::operator<=(const Fixed &other) const
+{
+	return(this->getRawBits() <= other.getRawBits());
+}
+
+bool Fixed::operator>=(const Fixed &other) const
+{
+	return(this->getRawBits() >= other.getRawBits());
+}
+
+bool Fixed::operator==(const Fixed &other) const
+{
+	return(this->getRawBits() == other.getRawBits());
+}
+
+bool Fixed::operator!=(const Fixed &other) const
+{
+	return(this->getRawBits() != other.getRawBits());
+}
+
+Fixed Fixed::operator+(const Fixed &other) const
+{
+	Fixed result;
+	result.setRawBits(this->getRawBits() + other.getRawBits());
+	return (result);
+}
+
+Fixed Fixed::operator-(const Fixed &other) const
+{
+	Fixed result;
+	result.setRawBits(this->getRawBits() - other.getRawBits());
+	return (result);
+}
+
+Fixed Fixed::operator*(const Fixed &other) const
+{
+	Fixed result;
+	result.setRawBits((this->getRawBits() * other.getRawBits()) >> 8);
+	return (result);
+}
+
+Fixed Fixed::operator/(const Fixed &other) const
+{
+	Fixed result;
+	result.setRawBits((this->getRawBits() << 8) / other.getRawBits());
+	return (result);
+}
+
+Fixed& Fixed::operator++(void)
+{
+	this->setRawBits(this->getRawBits() + 1);
+	return (*this);
+}
+
+Fixed Fixed::operator++(int)
+{
+	Fixed old_value = Fixed(*this);
+	this->setRawBits(this->getRawBits() + 1);
+	return (old_value);
+}
+
+Fixed& Fixed::operator--(void)
+{
+	this->setRawBits(this->getRawBits() - 1);
+	return (*this);
+}
+
+Fixed Fixed::operator--(int)
+{
+	Fixed old_value = Fixed(*this);
+	this->setRawBits(this->getRawBits() - 1);
+	return (old_value);
 }

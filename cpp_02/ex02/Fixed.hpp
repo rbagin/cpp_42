@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:20 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 12:21:59 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/03/23 14:36:48 by ravi-bagin    ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,21 @@ public:
 	int toInt(void) const;
 	int getRawBits(void)	const;
 	void setRawBits(int const raw);
+
+	bool	operator<(const Fixed &other) const;
+	bool	operator>(const Fixed &other) const;
+	bool	operator<=(const Fixed &other) const;
+	bool	operator>=(const Fixed &other) const;
+	bool	operator==(const Fixed &other) const;
+	bool	operator!=(const Fixed &other) const;
+	Fixed	operator+(const Fixed &other) const;
+	Fixed	operator-(const Fixed &other) const;
+	Fixed	operator*(const Fixed &other) const;
+	Fixed	operator/(const Fixed &other) const;
+	Fixed&	operator++(void);
+	Fixed	operator++(int);
+	Fixed&	operator--(void);
+	Fixed	operator--(int);
 };
 
 std::ostream& operator<<(std::ostream& out, const Fixed& fixed);
