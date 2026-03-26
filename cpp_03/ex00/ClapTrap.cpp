@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/23 16:13:44 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 17:58:12 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/03/26 15:29:31 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,7 @@ ClapTrap::ClapTrap(std::string trapName)
 
 ClapTrap::~ClapTrap()
 {
-	std::cout << "Destructor called" << std::endl;
-
+	std::cout << "ClapTrap " << name << " destroyed" << std::endl;
 }
 
 void ClapTrap::attack(const std::string& target)

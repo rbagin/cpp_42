@@ -6,17 +6,17 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/23 16:13:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 15:09:34 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/03/26 15:27:23 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int	main(void)
 {
-	ScavTrap test("Test");
+	FragTrap test("Test");
 	test.attack("Bob");
-	test.guardGate();
+	test.highFivesGuys();
 	test.takeDamage(50);
 	std::cout << "Test has " << test.getHitPoints() << " hitpoints" << std::endl;
 	return 0;

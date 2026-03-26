@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   main.cpp                                           :+:    :+:            */
+/*   FragTrap.hpp                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/03/23 16:13:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 15:09:34 by rbagin        ########   odam.nl         */
+/*   Created: 2026/03/26 15:14:46 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/03/26 15:17:40 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
+#ifndef FRAGTRAP_HPP
+# define FRAGTRAP_HPP
 
-int	main(void)
+# include "ClapTrap.hpp"
+
+class FragTrap : public ClapTrap
 {
-	ScavTrap test("Test");
-	test.attack("Bob");
-	test.guardGate();
-	test.takeDamage(50);
-	std::cout << "Test has " << test.getHitPoints() << " hitpoints" << std::endl;
-	return 0;
-}
+public:
+	FragTrap(std::string name);
+	~FragTrap();
+	void highFivesGuys(void);
+};
+
+#endif
