@@ -6,11 +6,15 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/26 15:38:17 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 17:37:13 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/03/31 13:02:07 by ravi-bagin    ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Animal.hpp"
+#include "Dog.hpp"
+#include "Cat.hpp"
+#include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
 
 int main(void)
 {
