@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/23 18:35:41 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 15:29:22 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/10 13:45:52 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,25 @@ ScavTrap::ScavTrap(std::string name) : ClapTrap(name)
 	energyPoints = 50;
 	attackDamage = 20;
 	std::cout << "ScavTrap " << name << " constructed" << std::endl;
+}
+
+ScavTrap::ScavTrap() : ClapTrap()
+{
+	std::cout << "ScavTrap Default constructor called" << std::endl;
+}
+
+ScavTrap::ScavTrap(const ScavTrap& other) : ClapTrap(other)
+{
+	std::cout << "ScavTrap Copy constructor called" << std::endl;
+	*this = other;
+}
+
+ScavTrap& ScavTrap::operator=(const ScavTrap& rhs)
+{
+	std::cout << "ScavTrap Copy assignment operator called" << std::endl;
+	if (this != &rhs)
+		ClapTrap::operator=(rhs);
+	return (*this);
 }
 
 ScavTrap::~ScavTrap()

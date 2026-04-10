@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:18 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/19 18:59:56 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/09 16:00:14 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ Fixed::Fixed() : rawBits(0)
 
 Fixed::Fixed(const Fixed& other)
 {
-	std::cout << "Copy contstructor called" << std::endl;
+	std::cout << "Copy constructor called" << std::endl;
 	*this = other;
 }
 

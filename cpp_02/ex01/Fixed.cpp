@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/18 16:31:18 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/23 12:22:11 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/04/09 16:02:04 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,13 @@ Fixed::Fixed(const int int_num)
 
 Fixed::Fixed(const float float_num)
 {
+	std::cout << "Float constructor called" << std::endl;
 	this->rawBits = roundf(float_num * (1 << fractionalBits));
 }
 
 Fixed::Fixed(const Fixed& other)
 {
-	std::cout << "Copy contstructor called" << std::endl;
+	std::cout << "Copy constructor called" << std::endl;
 	*this = other;
 }
 

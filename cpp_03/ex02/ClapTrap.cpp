@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/23 16:13:44 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 15:28:24 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/10 13:41:15 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,33 @@ ClapTrap::ClapTrap(std::string trapName)
 	std::cout << "ClapTrap " << trapName << " constructed" << std::endl;
 }
 
+ClapTrap::ClapTrap()
+{
+	std::cout << "Claptrap Default constructor called" << std::endl;
+}
+
+ClapTrap::ClapTrap(const ClapTrap& other)
+{
+	std::cout << "Claptrap Copy constructor called" << std::endl;
+	*this = other;
+}
+
+ClapTrap& ClapTrap::operator=(const ClapTrap& rhs)
+{
+	std::cout << "Claptrap Copy assignment operator called" << std::endl;
+	if (this != &rhs)
+	{
+		this->name = rhs.name;
+		this->hitPoints = rhs.hitPoints;
+		this->attackDamage = rhs.attackDamage;
+		this->energyPoints = rhs.energyPoints;
+	}
+	return (*this);
+}
+
 ClapTrap::~ClapTrap()
 {
 	std::cout << "ClapTrap " << name << " destroyed" << std::endl;
-
 }
 
 void ClapTrap::attack(const std::string& target)

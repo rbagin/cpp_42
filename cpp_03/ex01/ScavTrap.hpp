@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/23 18:35:37 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/26 14:52:25 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/10 13:44:01 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,9 @@
 class ScavTrap : public ClapTrap {
 public:
 	ScavTrap(std::string name);
+	ScavTrap();
+	ScavTrap(const ScavTrap& other);
+	ScavTrap& operator=(const ScavTrap& rhs);
 	~ScavTrap();
 	void attack(const std:: string& target);
 	void guardGate();
