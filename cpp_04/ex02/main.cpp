@@ -6,7 +6,7 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/26 15:38:17 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/03/31 19:18:42 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/04/10 16:33:28 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ int main(void)
 {
 	//cannot be instantiated directly(compile error)
 	// Animal a;
-	Animal *a;
 
 	const Animal* dog1 = new Dog();
 	const Animal* dog2 = new Dog();
