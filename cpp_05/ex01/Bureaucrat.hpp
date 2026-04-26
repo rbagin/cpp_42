@@ -6,7 +6,7 @@
 /*   By: ravi-bagin <ravi-bagin@student.codam.nl      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/31 19:23:29 by ravi-bagin    #+#    #+#                 */
-/*   Updated: 2026/04/23 16:40:31 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/26 15:59:20 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <iostream>
 # include <exception>
+# include "Form.hpp"
 
 class Bureaucrat {
 private:
@@ -42,6 +43,7 @@ public:
 	int					getGrade() const;
 	void				incrementGrade();
 	void				decrementGrade();
+	void				signForm(Form& f);
 };
 
 std::ostream& operator<<(std::ostream& out, const Bureaucrat& b);

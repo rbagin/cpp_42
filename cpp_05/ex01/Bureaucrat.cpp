@@ -6,7 +6,7 @@
 /*   By: ravi-bagin <ravi-bagin@student.codam.nl      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/31 19:23:25 by ravi-bagin    #+#    #+#                 */
-/*   Updated: 2026/04/23 17:20:30 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/04/26 17:13:28 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,16 @@ void			Bureaucrat::decrementGrade()
 	if (grade >= 150)
 		throw GradeTooLowException();
 	grade++;
+}
+
+void			Bureaucrat::signForm(Form& f)
+{
+	f.beSigned(*this);
+	if (f.getIsSigned())
+		std::cout << name << " signed " << f.getName();
+	else
+		std::cout << name << " couldn’t sign " << f.getName() <<
+			" because his grade isn't high enough.";
 }
 
 std::ostream& operator<<(std::ostream& out, const Bureaucrat& b)
