@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "Bureaucrat.hpp"
+#include "AForm.hpp"
 
 Bureaucrat::Bureaucrat(const std::string thisName, int thisGrade) : name(thisName), grade(thisGrade)
 {
@@ -71,7 +72,7 @@ void			Bureaucrat::decrementGrade()
 	grade++;
 }
 
-void			Bureaucrat::signForm(Form& f)
+void			Bureaucrat::signForm(AForm& f)
 {
 	try
 	{
@@ -81,6 +82,20 @@ void			Bureaucrat::signForm(Form& f)
 	catch(const std::exception& e)
 	{
 		std::cout << name << " couldn't sign " << f.getName() <<
+			" because " << e.what() << std::endl;
+	}
+}
+
+void			Bureaucrat::executeForm(const AForm& f) const
+{
+	try
+	{
+		f.execute(*this);
+		std::cout << name << " executed " << f.getName() << std::endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cout << name << " couldn't execute " << f.getName() <<
 			" because " << e.what() << std::endl;
 	}
 }
