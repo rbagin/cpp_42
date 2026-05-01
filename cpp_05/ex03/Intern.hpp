@@ -1,31 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ShrubberyCreationForm.hpp                          :+:    :+:            */
+/*   Intern.hpp                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/04/30 15:19:48 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/01 12:35:21 by rbagin        ########   odam.nl         */
+/*   Created: 2026/05/01 14:00:00 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/05/01 15:53:36 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SHRUBBERYCREATIONFORM_HPP
-# define SHRUBBERYCREATIONFORM_HPP
+#ifndef INTERN_HPP
+# define INTERN_HPP
 
+# include <iostream>
 # include "AForm.hpp"
 
-class ShrubberyCreationForm : public AForm {
+class Intern {
 private:
-	const std::string	target;
+	
 
 public:
-	ShrubberyCreationForm(const std::string& thisTarget);
-	ShrubberyCreationForm(const ShrubberyCreationForm& other);
-	ShrubberyCreationForm& operator=(const ShrubberyCreationForm& rhs);
-	virtual ~ShrubberyCreationForm();
-protected:
-	void action() const;
+	Intern();
+	Intern(const Intern& other);
+	Intern& operator=(const Intern& rhs);
+	~Intern();
+	AForm*	makeForm(const std::string& formName, const std::string& target) const;
 };
 
 #endif
+
