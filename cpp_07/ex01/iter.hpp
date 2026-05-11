@@ -1,23 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   B.hpp                                              :+:    :+:            */
+/*   iter.hpp                                           :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/08 11:09:06 by rbagin        ########   odam.nl         */
+/*   Created: 2026/05/08 16:00:00 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/05/11 14:26:01 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef B_HPP
-# define B_HPP
+#ifndef ITER_HPP
+# define ITER_HPP
 
-# include "Base.hpp"
+# include <cstddef>
 
-class B : public Base {
-	public:
-		~B() override;
-};
+template <typename T, typename F>
+void iter(T* arr, size_t len, F f)
+{
+	for (size_t i = 0; i < len; i++)
+		f(arr[i]);
+}
 
 #endif

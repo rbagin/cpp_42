@@ -5,20 +5,31 @@
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/07 11:49:46 by rbagin        ########   odam.nl         */
+/*   Created: 2026/05/08 16:00:00 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/05/11 12:57:46 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Serializer.hpp"
-#include "Data.hpp"
+#include "whatever.hpp"
+#include <iostream>
 
 int	main(void)
 {
-	Data d;
-	d.someNumber = 42;
-	uintptr_t raw = Serializer::serialize(&d);
-	Data* back = Serializer::deserialize(raw);
-	// assert(back == &d);
-	std::cout << (back == &d ? "match" : "mismatch") << std::endl;
+	int a = 2;
+	int b = 3;
+
+	::swap(a, b);
+	std::cout << "a = " << a << ", b = " << b << std::endl;
+	std::cout << "min(a, b) = " << ::min(a, b) << std::endl;
+	std::cout << "max(a, b) = " << ::max(a, b) << std::endl;
+
+	std::string c = "chaine1";
+	std::string d = "chaine2";
+
+	::swap(c, d);
+	std::cout << "c = " << c << ", d = " << d << std::endl;
+	std::cout << "min(c, d) = " << ::min(c, d) << std::endl;
+	std::cout << "max(c, d) = " << ::max(c, d) << std::endl;
+
+	return (0);
 }

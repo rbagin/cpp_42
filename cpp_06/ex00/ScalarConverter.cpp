@@ -26,10 +26,7 @@ ScalarConverter::ScalarConverter(const ScalarConverter& other)
 ScalarConverter& ScalarConverter::operator=(const ScalarConverter& rhs)
 {
 	std::cout << "ScalarConverter Copy assignment operator called" << std::endl;
-	if (this != &rhs)
-	{
-		
-	}
+	(void)rhs;
 	return (*this);
 }
 

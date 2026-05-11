@@ -1,23 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   B.hpp                                              :+:    :+:            */
+/*   main.cpp                                           :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/08 11:09:06 by rbagin        ########   odam.nl         */
+/*   Created: 2026/05/11 14:31:46 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/05/11 14:31:48 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef B_HPP
-# define B_HPP
+#include <iostream>
 
-# include "Base.hpp"
-
-class B : public Base {
-	public:
-		~B() override;
-};
-
-#endif
+int main(void)
+{
+	return 0;
+}

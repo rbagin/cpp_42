@@ -1,23 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   B.hpp                                              :+:    :+:            */
+/*   whatever.hpp                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/08 11:09:06 by rbagin        ########   odam.nl         */
+/*   Created: 2026/05/08 16:00:00 by rbagin        #+#    #+#                 */
+/*   Updated: 2026/05/11 12:41:52 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef B_HPP
-# define B_HPP
+#ifndef WHATEVER_HPP
+# define WHATEVER_HPP
 
-# include "Base.hpp"
+template <typename T>
+void swap(T& a, T& b)
+{
+	T temp = a;
+	a = b;
+	b = temp;
+}
 
-class B : public Base {
-	public:
-		~B() override;
-};
+template <typename T>
+T min(T a, T b)
+{
+	if (a < b)
+		return a;
+	return b;
+}
+
+template<typename T>
+T max(T a, T b)
+{
+	if (a > b)
+		return a;
+	return b;
+}
 
 #endif

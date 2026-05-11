@@ -6,8 +6,13 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/03 16:00:00 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/05/08 12:29:06 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "C.hpp"
+
+C::~C()
+{
+	std::cout << "C Destructor called" << std::endl;
+}

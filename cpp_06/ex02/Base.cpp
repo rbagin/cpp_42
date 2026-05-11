@@ -6,8 +6,13 @@
 /*   By: rbagin <rbagin@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/05/03 16:00:00 by rbagin        #+#    #+#                 */
-/*   Updated: 2026/05/03 16:00:00 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/05/07 12:26:00 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Base.hpp"
+
+Base::~Base()
+{
+	std::cout << "Base Destructor called" << std::endl;
+}
