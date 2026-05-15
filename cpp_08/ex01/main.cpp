@@ -6,7 +6,7 @@
 /*   By: ravi-bagin <ravi-bagin@student.codam.nl      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/05/14 13:35:35 by ravi-bagin    #+#    #+#                 */
-/*   Updated: 2026/05/14 15:51:17 by ravi-bagin    ########   odam.nl         */
+/*   Updated: 2026/05/15 11:57:12 by ravi-bagin    ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,35 @@ int main(void)
 	for (int i = 0; i < 300; i++)
 		rangeOfNumbers.push_back(i * 3);
 	test.addRange(rangeOfNumbers.begin(), rangeOfNumbers.end());
+	try
+	{
+		Span test1(1);
+		test1.addNumber(5);
+		test1.addNumber(5);
+	}
+	catch(const std::exception&)
+	{
+		std::cerr << "Span is full!\n";
+	}
+	try
+	{
+		Span test2(2);
+		test2.addNumber(5);
+		std::cout << test2.shortestSpan() << std::endl;
+	}
+	catch(const std::exception&)
+	{
+		std::cerr << "Span doesn't have enough numbers\n";
+	}
+	try
+	{
+		Span test2(2);
+		test2.addNumber(5);
+		std::cout << test2.longestSpan() << std::endl;
+	}
+	catch(const std::exception&)
+	{
+		std::cerr << "Span doesn't have enough numbers\n";
+	}
 	return 0;
 }
