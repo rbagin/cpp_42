@@ -6,7 +6,7 @@
 /*   By: ravi-bagin <ravi-bagin@student.codam.nl      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/03/31 19:23:29 by ravi-bagin    #+#    #+#                 */
-/*   Updated: 2026/04/23 16:40:31 by rbagin        ########   odam.nl         */
+/*   Updated: 2026/05/13 14:36:52 by rbagin        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ public:
 	{
 		public:
 			const char* what() const throw() { return "Grade too high(max 1)!";}
-
 	};
 	class GradeTooLowException : public std::exception
 	{

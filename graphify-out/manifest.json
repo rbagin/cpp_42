@@ -1,0 +1,887 @@
+{
+  "/home/rbagin/cpp_42/cpp_00/ex01/Contact.cpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "f3258ddd92258ca09fde5b153da27549",
+    "semantic_hash": "f3258ddd92258ca09fde5b153da27549"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex01/Contact.hpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "59a781b4937f0cd8df729f0e58d67a41",
+    "semantic_hash": "59a781b4937f0cd8df729f0e58d67a41"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex01/PhoneBook.cpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "a958abf16d9e9dba4d460159e88ac77a",
+    "semantic_hash": "a958abf16d9e9dba4d460159e88ac77a"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex01/PhoneBook.hpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "b70cbb3176509dc046f823afb1c8ee70",
+    "semantic_hash": "b70cbb3176509dc046f823afb1c8ee70"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex01/main.cpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "f1286825153392d74a5e0dead1e6aebf",
+    "semantic_hash": "f1286825153392d74a5e0dead1e6aebf"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex00/ex00.cpp": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "cd14fdb4fc9b725eb9b1773f9023b57f",
+    "semantic_hash": "cd14fdb4fc9b725eb9b1773f9023b57f"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex02/Account.hpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "e2a92aad1a14c8af59238520862184d9",
+    "semantic_hash": "e2a92aad1a14c8af59238520862184d9"
+  },
+  "/home/rbagin/cpp_42/cpp_00/ex02/tests.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "4d1ce595baf5dc6df0f1cc3c3d0511c4",
+    "semantic_hash": "4d1ce595baf5dc6df0f1cc3c3d0511c4"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex00/Zombie.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "0a9bab88192e19f97fa0bffdc99f79b3",
+    "semantic_hash": "0a9bab88192e19f97fa0bffdc99f79b3"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex00/Zombie.hpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "d051c96d59378bd875df63e4d8864f46",
+    "semantic_hash": "d051c96d59378bd875df63e4d8864f46"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex00/main.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "be4f5f0d3ea882becca3f4fb8dfd72ec",
+    "semantic_hash": "be4f5f0d3ea882becca3f4fb8dfd72ec"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex00/newZombie.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "1a46c1ddd7e4393d07151a006b915191",
+    "semantic_hash": "1a46c1ddd7e4393d07151a006b915191"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex00/randomChump.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "6b7c53ae298dd53cfa8b06c90c6b81f3",
+    "semantic_hash": "6b7c53ae298dd53cfa8b06c90c6b81f3"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex01/Zombie.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "65cdf30681bed9f0e6da0616b9a3b377",
+    "semantic_hash": "65cdf30681bed9f0e6da0616b9a3b377"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex01/Zombie.hpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "bf205668f254af5f6dfca13fa20d743a",
+    "semantic_hash": "bf205668f254af5f6dfca13fa20d743a"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex01/main.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "7fc42e49180df756e8fd3b4236a06c45",
+    "semantic_hash": "7fc42e49180df756e8fd3b4236a06c45"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex01/zombieHorde.cpp": {
+    "mtime": 1773228095.9319208,
+    "ast_hash": "07ce853c812429aa2b575a8fcf2cef33",
+    "semantic_hash": "07ce853c812429aa2b575a8fcf2cef33"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex02/main.cpp": {
+    "mtime": 1773234409.9526277,
+    "ast_hash": "b076a7ad29d23d7d61c6ae0e7054af65",
+    "semantic_hash": "b076a7ad29d23d7d61c6ae0e7054af65"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/main.cpp": {
+    "mtime": 1773244950.0032291,
+    "ast_hash": "4db6116e7b78f20b55d916c20f726fcb",
+    "semantic_hash": "4db6116e7b78f20b55d916c20f726fcb"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/Weapon.hpp": {
+    "mtime": 1773243597.974268,
+    "ast_hash": "5ccc821388675fbee9e1993c7ef63ff7",
+    "semantic_hash": "5ccc821388675fbee9e1993c7ef63ff7"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/Weapon.cpp": {
+    "mtime": 1773243599.7662618,
+    "ast_hash": "75991a0d8ba6b78a00a80f2a3057c0d3",
+    "semantic_hash": "75991a0d8ba6b78a00a80f2a3057c0d3"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/HumanA.hpp": {
+    "mtime": 1773243609.570228,
+    "ast_hash": "dd0bdb600840347d35487576b98ed5a6",
+    "semantic_hash": "dd0bdb600840347d35487576b98ed5a6"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/HumanA.cpp": {
+    "mtime": 1773244599.951853,
+    "ast_hash": "6dc5f14382526f9140789d26f579d42a",
+    "semantic_hash": "6dc5f14382526f9140789d26f579d42a"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/HumanB.cpp": {
+    "mtime": 1773244933.6392574,
+    "ast_hash": "9b4cd6b39fe3b843668a25e5e5fc0883",
+    "semantic_hash": "9b4cd6b39fe3b843668a25e5e5fc0883"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex03/HumanB.hpp": {
+    "mtime": 1773243627.054169,
+    "ast_hash": "b2227be3e117102a28529876e3d2a8e3",
+    "semantic_hash": "b2227be3e117102a28529876e3d2a8e3"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex04/main.cpp": {
+    "mtime": 1773837888.7897148,
+    "ast_hash": "b374b1621699b5adb6f5f4da1ce7c02d",
+    "semantic_hash": "b374b1621699b5adb6f5f4da1ce7c02d"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex05/main.cpp": {
+    "mtime": 1773840895.086575,
+    "ast_hash": "c6adca5ca71a24277ecc7b3e13cd593b",
+    "semantic_hash": "c6adca5ca71a24277ecc7b3e13cd593b"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex05/Harl.hpp": {
+    "mtime": 1773839514.999903,
+    "ast_hash": "1e326e3d5b0228dea9a3bf59c08b4dd9",
+    "semantic_hash": "1e326e3d5b0228dea9a3bf59c08b4dd9"
+  },
+  "/home/rbagin/cpp_42/cpp_01/ex05/Harl.cpp": {
+    "mtime": 1773840583.8190129,
+    "ast_hash": "d9ea94bd00f659f43128098b9682d291",
+    "semantic_hash": "d9ea94bd00f659f43128098b9682d291"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex00/main.cpp": {
+    "mtime": 1773936669.6692126,
+    "ast_hash": "43fb3993b245f9a49eab94d706fc5db8",
+    "semantic_hash": "43fb3993b245f9a49eab94d706fc5db8"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex00/Fixed.cpp": {
+    "mtime": 1775743214.427436,
+    "ast_hash": "c4516853e17547f255e0b50f6bd8b30f",
+    "semantic_hash": "c4516853e17547f255e0b50f6bd8b30f"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex00/Fixed.hpp": {
+    "mtime": 1773933462.81348,
+    "ast_hash": "3cbecdd59ee0ec62dcebb103a00e3a8b",
+    "semantic_hash": "3cbecdd59ee0ec62dcebb103a00e3a8b"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex01/main.cpp": {
+    "mtime": 1773944376.452601,
+    "ast_hash": "8017bc39d03e0ef2bb6d14e135949b1e",
+    "semantic_hash": "8017bc39d03e0ef2bb6d14e135949b1e"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex01/Fixed.cpp": {
+    "mtime": 1775743324.01552,
+    "ast_hash": "22bfd4b8bc7fbc2abca7444f7e10368c",
+    "semantic_hash": "22bfd4b8bc7fbc2abca7444f7e10368c"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex01/Fixed.hpp": {
+    "mtime": 1774277003.0142353,
+    "ast_hash": "732aa2e4375342a86ccfd9fb95657d0e",
+    "semantic_hash": "732aa2e4375342a86ccfd9fb95657d0e"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex02/Fixed.cpp": {
+    "mtime": 1775743338.099531,
+    "ast_hash": "1c3f621f9614535c4c4576ace9867b32",
+    "semantic_hash": "1c3f621f9614535c4c4576ace9867b32"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex02/Fixed.hpp": {
+    "mtime": 1774278565.692152,
+    "ast_hash": "393710f03e8fa988a8e80ef6468b5601",
+    "semantic_hash": "393710f03e8fa988a8e80ef6468b5601"
+  },
+  "/home/rbagin/cpp_42/cpp_02/ex02/main.cpp": {
+    "mtime": 1774278700.9876544,
+    "ast_hash": "adbc0f36cf3f464b5e9671a799249b33",
+    "semantic_hash": "adbc0f36cf3f464b5e9671a799249b33"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex00/main.cpp": {
+    "mtime": 1774285121.6056988,
+    "ast_hash": "2a49812c14f3fda5fd9d2a4f4312cdd0",
+    "semantic_hash": "2a49812c14f3fda5fd9d2a4f4312cdd0"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex00/ClapTrap.cpp": {
+    "mtime": 1775822669.846934,
+    "ast_hash": "8650303e06022dab0778882166d24bb0",
+    "semantic_hash": "8650303e06022dab0778882166d24bb0"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex00/ClapTrap.hpp": {
+    "mtime": 1775820683.1599765,
+    "ast_hash": "448980667fe555b6c82bd1edb660ab34",
+    "semantic_hash": "448980667fe555b6c82bd1edb660ab34"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex01/ClapTrap.cpp": {
+    "mtime": 1775822675.2671075,
+    "ast_hash": "e01bfa83df19b4b025e5d3ac451375a3",
+    "semantic_hash": "e01bfa83df19b4b025e5d3ac451375a3"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex01/ClapTrap.hpp": {
+    "mtime": 1775821220.915742,
+    "ast_hash": "837c3687d7062d35eb1cf70a659a765a",
+    "semantic_hash": "837c3687d7062d35eb1cf70a659a765a"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex01/main.cpp": {
+    "mtime": 1774534174.8780203,
+    "ast_hash": "6fef69c430e88a4c30015b11942feace",
+    "semantic_hash": "6fef69c430e88a4c30015b11942feace"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex01/ScavTrap.cpp": {
+    "mtime": 1775822686.6194642,
+    "ast_hash": "34756010f1dc9f5c213ad07352690379",
+    "semantic_hash": "34756010f1dc9f5c213ad07352690379"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex01/ScavTrap.hpp": {
+    "mtime": 1775821441.1025548,
+    "ast_hash": "fe1546c865d689ecbfd0d7de833b52f1",
+    "semantic_hash": "fe1546c865d689ecbfd0d7de833b52f1"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/ClapTrap.cpp": {
+    "mtime": 1775822680.3272674,
+    "ast_hash": "c9b0c94d2e5618b065708de4f02395cf",
+    "semantic_hash": "c9b0c94d2e5618b065708de4f02395cf"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/ClapTrap.hpp": {
+    "mtime": 1775821241.5716486,
+    "ast_hash": "e9862c94273e5d8fdc274184ec3b8755",
+    "semantic_hash": "e9862c94273e5d8fdc274184ec3b8755"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/main.cpp": {
+    "mtime": 1774535243.8939176,
+    "ast_hash": "3b00622f0478470759d0a75586dc2808",
+    "semantic_hash": "3b00622f0478470759d0a75586dc2808"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/ScavTrap.cpp": {
+    "mtime": 1775822691.8516257,
+    "ast_hash": "b740b4464efea33fe34d8bdc25e8ca2a",
+    "semantic_hash": "b740b4464efea33fe34d8bdc25e8ca2a"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/ScavTrap.hpp": {
+    "mtime": 1775821599.1454954,
+    "ast_hash": "ec97b2630ee521622cb653a7eb9f5c70",
+    "semantic_hash": "ec97b2630ee521622cb653a7eb9f5c70"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/FragTrap.cpp": {
+    "mtime": 1775822696.9837823,
+    "ast_hash": "110cc8b1cfbd6d45645e900097fe013f",
+    "semantic_hash": "110cc8b1cfbd6d45645e900097fe013f"
+  },
+  "/home/rbagin/cpp_42/cpp_03/ex02/FragTrap.hpp": {
+    "mtime": 1775822474.267144,
+    "ast_hash": "04608853d1ca188110bc94060d67bd20",
+    "semantic_hash": "04608853d1ca188110bc94060d67bd20"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Animal.cpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "5fe2664f426a433e39d5025e2e2ab1f2",
+    "semantic_hash": "5fe2664f426a433e39d5025e2e2ab1f2"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Animal.hpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "1f8cd42295bc4a65e2aadb47728c972f",
+    "semantic_hash": "1f8cd42295bc4a65e2aadb47728c972f"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Cat.cpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "3a0dec58a437bc9eae4a25ea2f3b6d32",
+    "semantic_hash": "3a0dec58a437bc9eae4a25ea2f3b6d32"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Cat.hpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "dc5658efdbd3c4cf39c385779d0853d0",
+    "semantic_hash": "dc5658efdbd3c4cf39c385779d0853d0"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Dog.cpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "962196e768822b0ec188026091a55653",
+    "semantic_hash": "962196e768822b0ec188026091a55653"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/Dog.hpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "2e70603b738b1d497c1a7254818a55b0",
+    "semantic_hash": "2e70603b738b1d497c1a7254818a55b0"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/WrongAnimal.cpp": {
+    "mtime": 1775817426.8066878,
+    "ast_hash": "e1ec26f5d3d1fad431f27437aba59232",
+    "semantic_hash": "e1ec26f5d3d1fad431f27437aba59232"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/WrongAnimal.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "4f62e8cbc27563ced2bbe4301bf1af82",
+    "semantic_hash": "4f62e8cbc27563ced2bbe4301bf1af82"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/WrongCat.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "bc8418d1cbb438ef5934bb7e428432e9",
+    "semantic_hash": "bc8418d1cbb438ef5934bb7e428432e9"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/WrongCat.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "11efdd0d4539ab4e499f89a11072c83b",
+    "semantic_hash": "11efdd0d4539ab4e499f89a11072c83b"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex00/main.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "1ed829224a6418db941fe8e33404b590",
+    "semantic_hash": "1ed829224a6418db941fe8e33404b590"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Animal.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "5fe2664f426a433e39d5025e2e2ab1f2",
+    "semantic_hash": "5fe2664f426a433e39d5025e2e2ab1f2"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Animal.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "1f8cd42295bc4a65e2aadb47728c972f",
+    "semantic_hash": "1f8cd42295bc4a65e2aadb47728c972f"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Brain.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "d989071f7f1a2f38e6c953787a5d207b",
+    "semantic_hash": "d989071f7f1a2f38e6c953787a5d207b"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Brain.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "0927742932848818da2428d7e0962e83",
+    "semantic_hash": "0927742932848818da2428d7e0962e83"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Cat.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "785dcd4bbbf62fc919822b635ae0b225",
+    "semantic_hash": "785dcd4bbbf62fc919822b635ae0b225"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Cat.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "a0078da1233c52bf6d3c2648d9f6dbeb",
+    "semantic_hash": "a0078da1233c52bf6d3c2648d9f6dbeb"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Dog.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "56e8b94b142ad887ba754524db417cc1",
+    "semantic_hash": "56e8b94b142ad887ba754524db417cc1"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/Dog.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "6e9416c66456cb55909489de9c817f14",
+    "semantic_hash": "6e9416c66456cb55909489de9c817f14"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/WrongAnimal.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "e1ec26f5d3d1fad431f27437aba59232",
+    "semantic_hash": "e1ec26f5d3d1fad431f27437aba59232"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/WrongAnimal.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "4f62e8cbc27563ced2bbe4301bf1af82",
+    "semantic_hash": "4f62e8cbc27563ced2bbe4301bf1af82"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/WrongCat.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "bc8418d1cbb438ef5934bb7e428432e9",
+    "semantic_hash": "bc8418d1cbb438ef5934bb7e428432e9"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/WrongCat.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "11efdd0d4539ab4e499f89a11072c83b",
+    "semantic_hash": "11efdd0d4539ab4e499f89a11072c83b"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex01/main.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "67dce5011c05cd2c783494977d7220db",
+    "semantic_hash": "67dce5011c05cd2c783494977d7220db"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Animal.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "987deac0309a74c7395465e5cb4ece88",
+    "semantic_hash": "987deac0309a74c7395465e5cb4ece88"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Animal.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "f9dbfd571a1dc163b2bde0a9294c9005",
+    "semantic_hash": "f9dbfd571a1dc163b2bde0a9294c9005"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Brain.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "d989071f7f1a2f38e6c953787a5d207b",
+    "semantic_hash": "d989071f7f1a2f38e6c953787a5d207b"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Brain.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "0927742932848818da2428d7e0962e83",
+    "semantic_hash": "0927742932848818da2428d7e0962e83"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Cat.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "785dcd4bbbf62fc919822b635ae0b225",
+    "semantic_hash": "785dcd4bbbf62fc919822b635ae0b225"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Cat.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "a0078da1233c52bf6d3c2648d9f6dbeb",
+    "semantic_hash": "a0078da1233c52bf6d3c2648d9f6dbeb"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Dog.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "56e8b94b142ad887ba754524db417cc1",
+    "semantic_hash": "56e8b94b142ad887ba754524db417cc1"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/Dog.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "6e9416c66456cb55909489de9c817f14",
+    "semantic_hash": "6e9416c66456cb55909489de9c817f14"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/WrongAnimal.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "e1ec26f5d3d1fad431f27437aba59232",
+    "semantic_hash": "e1ec26f5d3d1fad431f27437aba59232"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/WrongAnimal.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "daa0353b5632a519b9774e6503483289",
+    "semantic_hash": "daa0353b5632a519b9774e6503483289"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/WrongCat.cpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "bc8418d1cbb438ef5934bb7e428432e9",
+    "semantic_hash": "bc8418d1cbb438ef5934bb7e428432e9"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/WrongCat.hpp": {
+    "mtime": 1775817426.8106878,
+    "ast_hash": "11efdd0d4539ab4e499f89a11072c83b",
+    "semantic_hash": "11efdd0d4539ab4e499f89a11072c83b"
+  },
+  "/home/rbagin/cpp_42/cpp_04/ex02/main.cpp": {
+    "mtime": 1776951962.7344947,
+    "ast_hash": "575db46676845eca002d6a25ad23f430",
+    "semantic_hash": "575db46676845eca002d6a25ad23f430"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex00/Bureaucrat.cpp": {
+    "mtime": 1776957630.2883635,
+    "ast_hash": "6dea8011a2ad391b7c2a7094f7f78b7d",
+    "semantic_hash": "6dea8011a2ad391b7c2a7094f7f78b7d"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex00/Bureaucrat.hpp": {
+    "mtime": 1778675812.5157175,
+    "ast_hash": "f265f2ec062e79e0ce7212602dd86ee0",
+    "semantic_hash": "f265f2ec062e79e0ce7212602dd86ee0"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex00/main.cpp": {
+    "mtime": 1777547154.1910267,
+    "ast_hash": "267c955ce4f05ed109ff2011f847015a",
+    "semantic_hash": "267c955ce4f05ed109ff2011f847015a"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex01/main.cpp": {
+    "mtime": 1777549869.7522955,
+    "ast_hash": "15ce735a2bdbd62495b1703ed28f9755",
+    "semantic_hash": "15ce735a2bdbd62495b1703ed28f9755"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex01/Bureaucrat.cpp": {
+    "mtime": 1777546964.067771,
+    "ast_hash": "b5055d7a3171f7821c4c2a206ed441c1",
+    "semantic_hash": "b5055d7a3171f7821c4c2a206ed441c1"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex01/Bureaucrat.hpp": {
+    "mtime": 1777211960.594871,
+    "ast_hash": "3433caf9e87cc6f26e2fce23ebc781ae",
+    "semantic_hash": "3433caf9e87cc6f26e2fce23ebc781ae"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex01/Form.hpp": {
+    "mtime": 1777547432.2018714,
+    "ast_hash": "6b247e12c545997bf502cb7eb6ba57da",
+    "semantic_hash": "6b247e12c545997bf502cb7eb6ba57da"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex01/Form.cpp": {
+    "mtime": 1777547423.0979102,
+    "ast_hash": "db1a692bcb4fe12fc782d37f874d3344",
+    "semantic_hash": "db1a692bcb4fe12fc782d37f874d3344"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/main.cpp": {
+    "mtime": 1777636473.161409,
+    "ast_hash": "8eaf5cabf1069c05662a7ea6b2a2161b",
+    "semantic_hash": "8eaf5cabf1069c05662a7ea6b2a2161b"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/Bureaucrat.hpp": {
+    "mtime": 1777555980.943091,
+    "ast_hash": "b9c64053492e574c603fb58b570eeacb",
+    "semantic_hash": "b9c64053492e574c603fb58b570eeacb"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/Bureaucrat.cpp": {
+    "mtime": 1777555991.6470428,
+    "ast_hash": "fdde0ad481b045b01100fe2e828eb993",
+    "semantic_hash": "fdde0ad481b045b01100fe2e828eb993"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/AForm.cpp": {
+    "mtime": 1777633130.1213746,
+    "ast_hash": "c33e70017dfbe6e5c2497653901326d8",
+    "semantic_hash": "c33e70017dfbe6e5c2497653901326d8"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/AForm.hpp": {
+    "mtime": 1777633065.2374253,
+    "ast_hash": "6f4d4aa6ac65f03a2f84d4943375fc41",
+    "semantic_hash": "6f4d4aa6ac65f03a2f84d4943375fc41"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/PresidentialPardonForm.cpp": {
+    "mtime": 1777633211.7653027,
+    "ast_hash": "1e410decb2443acdce6204cbcf40024e",
+    "semantic_hash": "1e410decb2443acdce6204cbcf40024e"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/PresidentialPardonForm.hpp": {
+    "mtime": 1777633209.1413052,
+    "ast_hash": "6c376ab67ecac93ebdd5d07e23ee2662",
+    "semantic_hash": "6c376ab67ecac93ebdd5d07e23ee2662"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/ShrubberyCreationForm.cpp": {
+    "mtime": 1777633215.3252993,
+    "ast_hash": "4359f224c8ef1e88aa3a067840cf6c9e",
+    "semantic_hash": "4359f224c8ef1e88aa3a067840cf6c9e"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/ShrubberyCreationForm.hpp": {
+    "mtime": 1777633213.2933013,
+    "ast_hash": "6fd3b13b13c993e8e483b751bdbd59c0",
+    "semantic_hash": "6fd3b13b13c993e8e483b751bdbd59c0"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/RobotomyRequestForm.hpp": {
+    "mtime": 1777633216.3532984,
+    "ast_hash": "dcb550b41a6fdd5a6319c473918e86af",
+    "semantic_hash": "dcb550b41a6fdd5a6319c473918e86af"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex02/RobotomyRequestForm.cpp": {
+    "mtime": 1777633218.5052962,
+    "ast_hash": "8cc795bd3bbc007c89e8ca5035d542ec",
+    "semantic_hash": "8cc795bd3bbc007c89e8ca5035d542ec"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/AForm.hpp": {
+    "mtime": 1777637065.2646885,
+    "ast_hash": "6f4d4aa6ac65f03a2f84d4943375fc41",
+    "semantic_hash": "6f4d4aa6ac65f03a2f84d4943375fc41"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/Bureaucrat.hpp": {
+    "mtime": 1777637065.2646885,
+    "ast_hash": "b9c64053492e574c603fb58b570eeacb",
+    "semantic_hash": "b9c64053492e574c603fb58b570eeacb"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/PresidentialPardonForm.hpp": {
+    "mtime": 1777637065.2646885,
+    "ast_hash": "6c376ab67ecac93ebdd5d07e23ee2662",
+    "semantic_hash": "6c376ab67ecac93ebdd5d07e23ee2662"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/RobotomyRequestForm.hpp": {
+    "mtime": 1777637065.2646885,
+    "ast_hash": "dcb550b41a6fdd5a6319c473918e86af",
+    "semantic_hash": "dcb550b41a6fdd5a6319c473918e86af"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/ShrubberyCreationForm.hpp": {
+    "mtime": 1777637065.2646885,
+    "ast_hash": "6fd3b13b13c993e8e483b751bdbd59c0",
+    "semantic_hash": "6fd3b13b13c993e8e483b751bdbd59c0"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/AForm.cpp": {
+    "mtime": 1777637065.2686884,
+    "ast_hash": "c33e70017dfbe6e5c2497653901326d8",
+    "semantic_hash": "c33e70017dfbe6e5c2497653901326d8"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/Bureaucrat.cpp": {
+    "mtime": 1777637065.2686884,
+    "ast_hash": "fdde0ad481b045b01100fe2e828eb993",
+    "semantic_hash": "fdde0ad481b045b01100fe2e828eb993"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/main.cpp": {
+    "mtime": 1777645656.3626933,
+    "ast_hash": "98203211062e16b690ae7d6d8dc9c5c4",
+    "semantic_hash": "98203211062e16b690ae7d6d8dc9c5c4"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/PresidentialPardonForm.cpp": {
+    "mtime": 1777637065.2686884,
+    "ast_hash": "1e410decb2443acdce6204cbcf40024e",
+    "semantic_hash": "1e410decb2443acdce6204cbcf40024e"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/RobotomyRequestForm.cpp": {
+    "mtime": 1777637065.2686884,
+    "ast_hash": "8cc795bd3bbc007c89e8ca5035d542ec",
+    "semantic_hash": "8cc795bd3bbc007c89e8ca5035d542ec"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/ShrubberyCreationForm.cpp": {
+    "mtime": 1777637065.2686884,
+    "ast_hash": "4359f224c8ef1e88aa3a067840cf6c9e",
+    "semantic_hash": "4359f224c8ef1e88aa3a067840cf6c9e"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/Intern.hpp": {
+    "mtime": 1777643616.3492954,
+    "ast_hash": "35346f483d847c21d45e846178efe790",
+    "semantic_hash": "35346f483d847c21d45e846178efe790"
+  },
+  "/home/rbagin/cpp_42/cpp_05/ex03/Intern.cpp": {
+    "mtime": 1777643919.016725,
+    "ast_hash": "df742ea417698b016fa31310566a5c7a",
+    "semantic_hash": "df742ea417698b016fa31310566a5c7a"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex00/ScalarConverter.hpp": {
+    "mtime": 1778074757.566443,
+    "ast_hash": "3d1335700ac6e6860a8191320e11fe06",
+    "semantic_hash": "3d1335700ac6e6860a8191320e11fe06"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex00/ScalarConverter.cpp": {
+    "mtime": 1778147768.7056823,
+    "ast_hash": "2495d91706c005e4f619334ac4a5bfa3",
+    "semantic_hash": "2495d91706c005e4f619334ac4a5bfa3"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex00/main.cpp": {
+    "mtime": 1778077333.7577493,
+    "ast_hash": "f19b4e37975c16d8fe71c97ba4040277",
+    "semantic_hash": "f19b4e37975c16d8fe71c97ba4040277"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex01/Serializer.hpp": {
+    "mtime": 1778147207.1637673,
+    "ast_hash": "a16279bfb1a0bd648f9e5172a0390090",
+    "semantic_hash": "a16279bfb1a0bd648f9e5172a0390090"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex01/Serializer.cpp": {
+    "mtime": 1778147785.2416167,
+    "ast_hash": "5db9751736bacef5254ec4dfdb8bd21f",
+    "semantic_hash": "5db9751736bacef5254ec4dfdb8bd21f"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex01/Data.hpp": {
+    "mtime": 1778147321.5993721,
+    "ast_hash": "d1aa919faa03bac54bbe4a05c33bcc1a",
+    "semantic_hash": "d1aa919faa03bac54bbe4a05c33bcc1a"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex01/main.cpp": {
+    "mtime": 1778147386.7191386,
+    "ast_hash": "e2523270f4aa7254973b3cdfd32f743e",
+    "semantic_hash": "e2523270f4aa7254973b3cdfd32f743e"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/Base.hpp": {
+    "mtime": 1778149570.547137,
+    "ast_hash": "6c8aff4b38c156484caa5cfcd61d71b1",
+    "semantic_hash": "6c8aff4b38c156484caa5cfcd61d71b1"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/Base.cpp": {
+    "mtime": 1778149560.3191667,
+    "ast_hash": "f6f07f53cb2ffd763162e2af1ea69ec7",
+    "semantic_hash": "f6f07f53cb2ffd763162e2af1ea69ec7"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/A.hpp": {
+    "mtime": 1778231341.018331,
+    "ast_hash": "e12c09174ad6436b13e82da14a5134dc",
+    "semantic_hash": "e12c09174ad6436b13e82da14a5134dc"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/A.cpp": {
+    "mtime": 1778149852.1142557,
+    "ast_hash": "56ab830d2bed0fad501bda68664bc87e",
+    "semantic_hash": "56ab830d2bed0fad501bda68664bc87e"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/B.hpp": {
+    "mtime": 1778231346.5863318,
+    "ast_hash": "6529d0abef9709720bc026848d47a47e",
+    "semantic_hash": "6529d0abef9709720bc026848d47a47e"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/B.cpp": {
+    "mtime": 1778236141.1598396,
+    "ast_hash": "13fb08f34f4f1cef4e6017086b463e93",
+    "semantic_hash": "13fb08f34f4f1cef4e6017086b463e93"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/C.hpp": {
+    "mtime": 1778231355.782333,
+    "ast_hash": "233962688d58fcc566049d5f47bf093e",
+    "semantic_hash": "233962688d58fcc566049d5f47bf093e"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/C.cpp": {
+    "mtime": 1778236146.6998484,
+    "ast_hash": "b482634adc581875c5871d86a1237871",
+    "semantic_hash": "b482634adc581875c5871d86a1237871"
+  },
+  "/home/rbagin/cpp_42/cpp_06/ex02/main.cpp": {
+    "mtime": 1778236635.4604375,
+    "ast_hash": "9e0c12cb1ccdca5bb855cec8d7ac6d2a",
+    "semantic_hash": "9e0c12cb1ccdca5bb855cec8d7ac6d2a"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex00/whatever.hpp": {
+    "mtime": 1778496112.0661054,
+    "ast_hash": "2c6c23c03a74f9a21745a8ee9df05faa",
+    "semantic_hash": "2c6c23c03a74f9a21745a8ee9df05faa"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex00/main.cpp": {
+    "mtime": 1778497066.5067923,
+    "ast_hash": "73a4fe7ed4bbb69bed051e430668167f",
+    "semantic_hash": "73a4fe7ed4bbb69bed051e430668167f"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex01/iter.hpp": {
+    "mtime": 1778502361.834806,
+    "ast_hash": "fb0fa2a66c2110eff2eb2ae4523cbece",
+    "semantic_hash": "fb0fa2a66c2110eff2eb2ae4523cbece"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex01/main.cpp": {
+    "mtime": 1778502600.1599882,
+    "ast_hash": "928c5385ab685d9b39849668fdeadebf",
+    "semantic_hash": "928c5385ab685d9b39849668fdeadebf"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex02/main.cpp": {
+    "mtime": 1778684308.279026,
+    "ast_hash": "ebbf9e03e131ae70aa9bd5cd80df6452",
+    "semantic_hash": "ebbf9e03e131ae70aa9bd5cd80df6452"
+  },
+  "/home/rbagin/cpp_42/cpp_07/ex02/Array.hpp": {
+    "mtime": 1778683133.5359511,
+    "ast_hash": "54d7323456b1acc46c0cc1d8d493992d",
+    "semantic_hash": "54d7323456b1acc46c0cc1d8d493992d"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex00/easyfind.hpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "651fb5e74a7d3759dd90b3bc26bb9ce1",
+    "semantic_hash": "651fb5e74a7d3759dd90b3bc26bb9ce1"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex00/main.cpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "a5818a8c501b6a613edd93552925656f",
+    "semantic_hash": "a5818a8c501b6a613edd93552925656f"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex01/Span.cpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "67c7aa7fcf6802c813d823c63edbfea0",
+    "semantic_hash": "67c7aa7fcf6802c813d823c63edbfea0"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex01/Span.hpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "e8505c5b9bec3d85780412caf6bd1e7f",
+    "semantic_hash": "e8505c5b9bec3d85780412caf6bd1e7f"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex01/main.cpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "bcf9d8bd1d243b43521123710f861ecf",
+    "semantic_hash": "bcf9d8bd1d243b43521123710f861ecf"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex02/MutantStack.hpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "a4fcddd446f11a0e003f5b48b8c59cd0",
+    "semantic_hash": "a4fcddd446f11a0e003f5b48b8c59cd0"
+  },
+  "/home/rbagin/cpp_42/cpp_08/ex02/main.cpp": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "f0453b25c90d5e6b328f7e4aae41fa62",
+    "semantic_hash": "f0453b25c90d5e6b328f7e4aae41fa62"
+  },
+  "/home/rbagin/cpp_42/.claude/settings.local.json": {
+    "mtime": 1777633237.8812778,
+    "ast_hash": "df4e0bd837163a0e1b080039b5c36fef",
+    "semantic_hash": "df4e0bd837163a0e1b080039b5c36fef"
+  },
+  "/home/rbagin/cpp_42/.claude/settings.json": {
+    "mtime": 1779029853.6404169,
+    "ast_hash": "87f0d903477984d0587a02f8fe185263",
+    "semantic_hash": "87f0d903477984d0587a02f8fe185263"
+  },
+  "/home/rbagin/cpp_42/README.md": {
+    "mtime": 1765461381.824784,
+    "ast_hash": "aa3e6c01af723178806bbb2e3b06d0b9",
+    "semantic_hash": "aa3e6c01af723178806bbb2e3b06d0b9"
+  },
+  "/home/rbagin/cpp_42/CLAUDE.md": {
+    "mtime": 1779029853.6404169,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
+  },
+  "/home/rbagin/cpp_42/.github/copilot-instructions.md": {
+    "mtime": 1773228095.9239209,
+    "ast_hash": "47598186a9792a06c736aee2e9df6c57",
+    "semantic_hash": "47598186a9792a06c736aee2e9df6c57"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/MEMORY.md": {
+    "mtime": 1778847970.4540186,
+    "ast_hash": "3c4c66b52bc9b6ae1c86224035e1fa44",
+    "semantic_hash": "3c4c66b52bc9b6ae1c86224035e1fa44"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_42_ai_policy.md": {
+    "mtime": 1778845345.0338726,
+    "ast_hash": "fbea394104403921cabe7581e2c1ded9",
+    "semantic_hash": "fbea394104403921cabe7581e2c1ded9"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_career_relevance.md": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "89b26b635c7ea0bf5faaa5c6bfe6c6a5",
+    "semantic_hash": "89b26b635c7ea0bf5faaa5c6bfe6c6a5"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_no_direct_answers.md": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "027f0ec9a2261d2da14d17022a62aef1",
+    "semantic_hash": "027f0ec9a2261d2da14d17022a62aef1"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/reference_class_template_example.md": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "f58ff03b3571b1276e0ba9f43d0003d9",
+    "semantic_hash": "f58ff03b3571b1276e0ba9f43d0003d9"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/user_profile.md": {
+    "mtime": 1778845345.0378726,
+    "ast_hash": "80a93ab82978313faff27409db2d8698",
+    "semantic_hash": "80a93ab82978313faff27409db2d8698"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_response_style.md": {
+    "mtime": 1778845572.480716,
+    "ast_hash": "2132524ca95e495df954e582a8f3f110",
+    "semantic_hash": "2132524ca95e495df954e582a8f3f110"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_make_fclean.md": {
+    "mtime": 1778845572.480716,
+    "ast_hash": "2c4547f9a4bd708b4c37ac5e9f5ff926",
+    "semantic_hash": "2c4547f9a4bd708b4c37ac5e9f5ff926"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/feedback_cpp20_makefiles.md": {
+    "mtime": 1778845572.484716,
+    "ast_hash": "1337479f04d7ba81239bdf9d7cecf16d",
+    "semantic_hash": "1337479f04d7ba81239bdf9d7cecf16d"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/project_codam_cpp_standard.md": {
+    "mtime": 1778845572.484716,
+    "ast_hash": "52a5518a629730cc6a6b9fa1d552be1d",
+    "semantic_hash": "52a5518a629730cc6a6b9fa1d552be1d"
+  },
+  "/home/rbagin/cpp_42/.claude/memory/project_memory_setup.md": {
+    "mtime": 1778847987.7977529,
+    "ast_hash": "6f4674983c481715bc00b01bf71c6b6f",
+    "semantic_hash": "6f4674983c481715bc00b01bf71c6b6f"
+  },
+  "/home/rbagin/cpp_42/cpp_00/en.subject.pdf": {
+    "mtime": 1765461496.1198826,
+    "ast_hash": "f97dc8b46b305112a339dfc670e8d9c5",
+    "semantic_hash": "f97dc8b46b305112a339dfc670e8d9c5"
+  },
+  "/home/rbagin/cpp_42/cpp_01/en.subject (1).pdf": {
+    "mtime": 1765461515.7477286,
+    "ast_hash": "b6ef93f17d6193fcf2efa2a7421ffa64",
+    "semantic_hash": "b6ef93f17d6193fcf2efa2a7421ffa64"
+  },
+  "/home/rbagin/cpp_42/cpp_02/en.subject (2).pdf": {
+    "mtime": 1765463792.1578882,
+    "ast_hash": "ef4304006dd2168bfdaa83478d189f8d",
+    "semantic_hash": "ef4304006dd2168bfdaa83478d189f8d"
+  },
+  "/home/rbagin/cpp_42/cpp_03/en.subject (3).pdf": {
+    "mtime": 1765463816.3657055,
+    "ast_hash": "b9662937dc9216855971bdd0d49c4f50",
+    "semantic_hash": "b9662937dc9216855971bdd0d49c4f50"
+  },
+  "/home/rbagin/cpp_42/cpp_04/en.subject (4).pdf": {
+    "mtime": 1765463822.9736555,
+    "ast_hash": "b1c66bcc51f9613f3ebfd569b4d07333",
+    "semantic_hash": "b1c66bcc51f9613f3ebfd569b4d07333"
+  },
+  "/home/rbagin/cpp_42/cpp_05/en.subject (5).pdf": {
+    "mtime": 1765463845.5774844,
+    "ast_hash": "36f1d8101502bb3b7d5a2a5f0f0e13fa",
+    "semantic_hash": "36f1d8101502bb3b7d5a2a5f0f0e13fa"
+  },
+  "/home/rbagin/cpp_42/cpp_06/en.subject (6).pdf": {
+    "mtime": 1765463866.5893252,
+    "ast_hash": "bc4c433b06e2a2f20e5e1d8e32bb1ade",
+    "semantic_hash": "bc4c433b06e2a2f20e5e1d8e32bb1ade"
+  },
+  "/home/rbagin/cpp_42/cpp_07/en.subject (7).pdf": {
+    "mtime": 1765463902.9770489,
+    "ast_hash": "3daf2e2300c3bcbb13b95bf11c23311d",
+    "semantic_hash": "3daf2e2300c3bcbb13b95bf11c23311d"
+  },
+  "/home/rbagin/cpp_42/cpp_08/en.subject (8).pdf": {
+    "mtime": 1765463935.5928009,
+    "ast_hash": "748cc7fda644c76ec191b6a45d703bca",
+    "semantic_hash": "748cc7fda644c76ec191b6a45d703bca"
+  },
+  "/home/rbagin/cpp_42/cpp_09/en.subject (9).pdf": {
+    "mtime": 1765463956.4806416,
+    "ast_hash": "a04b609fc00320bb1904dc0f38dff48a",
+    "semantic_hash": "a04b609fc00320bb1904dc0f38dff48a"
+  }
+}
