@@ -10,3 +10,9 @@
 - [Use -std=c++20 in cpp_42 Makefiles](feedback_cpp20_makefiles.md) — All cpp_42 Makefiles should compile with `-std=c++20` in CFLAGS
 - [Codam C++ standard policy](project_codam_cpp_standard.md) — Codam does not enforce C++98; user uses C++20
 - [Memory setup — symlink](project_memory_setup.md) — Memory lives in `~/cpp_42/.claude/memory/` and the harness path is a symlink; needs re-creating on each new device
+- [School computer symlink setup](project_school_symlink.md) — On school computer: symlink repo's .claude/memory to ~/.claude/projects path after pulling
+- [School GitHub auth](project_school_auth.md) — VS Code account integration handles GitHub at Codam; SSH setup probably not needed
+- [cpp_08 ex01 status](project_ex01_status.md) — Span mostly done; needs exception tests in main.cpp before moving to ex02
+- [Life vault status](project_life_vault.md) — Obsidian vault fully built; 158 notes linked, repos live, agents working, cpp_09 ex00 next
+- [Webserv project](project_webserv.md) — Group C++ project starting 2026-05-18; team repo, different structure than solo cpp_XX modules
+- [Career plan](project_career.md) — FastAPI tea shop portfolio + Dutch job search; active apps July 2026
